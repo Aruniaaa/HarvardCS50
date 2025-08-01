@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: The times taken to sort random5000.txt as well as sorted5000.txt is highest, also the time taken to sort the sorted file is the same as the time taken to sort the unsorted file
+
+sort2 uses: merge sort
+
+How do you know?: The times taken to sort random5000.txt as well as sorted5000.txt are the least
+
+sort3 uses: selection sort
+
+How do you know?: The time taken to sort the unsorted file is huge but the time taken to sort the sorted file is very low
