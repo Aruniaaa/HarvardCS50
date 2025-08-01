@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+    background-color: #121212;
+    color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    text-align: center;
+    color: #FF6F61; /* vivid salmon */
+    padding-top: 50px;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hobbies {
+    color: #FF6F61;
+    text-decoration: underline;
+    text-decoration-color: #FF6F61;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+    margin-left: auto;
+    margin-right: 50px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.hobbies:hover {
+    color: #ffffff;
+    text-decoration-color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav-link {
+    color: #f8f9fa !important;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #FF6F61 !important;
+    transform: scale(1.05);
+}
+
+/* Buttons */
+button.btn-warning {
+    background-color: #FF6F61;
+    border: none;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(255, 111, 97, 0.5);
+    transition: all 0.3s ease;
+}
+
+button.btn-warning:hover {
+    background-color: #e85c50;
+    transform: translateY(-2px);
+}
+
+/* Cards or content blocks */
+.card {
+    background-color: #1e1e1e;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    color: #f8f9fa;
+}
+
+/* Footer if needed */
+footer {
+    background-color: #212121;
+    padding: 20px;
+    text-align: center;
+    color: #aaaaaa;
+    font-size: 0.9rem;
+}
+
+/* Utilities */
+.text-salmon {
+    color: #FF6F61;
+}
+
+a {
+    color: #FF6F61;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.container {
+    padding: 2rem 1rem;
+}
